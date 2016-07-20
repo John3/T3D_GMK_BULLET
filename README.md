@@ -15,25 +15,20 @@ I merge the code and fix minor bugs. If someone want to play and test this produ
  
 I documented some issues: https://github.com/John3/T3D_GMK_BULLET/issues 
 
-As you can see from the release note, this are the versions used:
-
-- Torque3D v2.0
-- Game Mechanics Kit (GMK) v1.2.13
-- Bullet Physics v2.78 release 2383
-
 As a note aside I manage to merge and compile GMK and GuideBot but have some important bugs from the TorqueScript side that I need to manage. (I think GuideBot is unfinished)
 
 #Pre-compiled Versions
 
 Download executable... Double click and run!
 
+You can download the executable from here:
+* [ Torque3D + GMK + Bullet package](https://github.com/John3/T3D_GMK_BULLET/releases) 
+
+As you can see from the release note, this are the versions used:
+
 - Torque3D v2.0
 - Game Mechanics Kit (GMK) v1.2.13
 - Bullet Physics v2.78 release 2383
-
-You can download the executable from here:
-* [ Torque3D + GMK + Bullet package](https://github.com/John3/T3D_GMK_BULLET/releases) 
-*
 
 # License
 
