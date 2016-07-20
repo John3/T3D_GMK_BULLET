@@ -1,5 +1,5 @@
 #Torque3D v2 + Game Mechanics Kit (GMK) + Bullet Physics
-=====================================================
+
 
 I merge the code and fix minor bugs. If someone want to play and test this product
 
@@ -24,7 +24,7 @@ As you can see from the release note, this are the versions used:
 As a note aside I manage to merge and compile GMK and GuideBot but have some important bugs from the TorqueScript side that I need to manage. (I think GuideBot is unfinished)
 
 #Pre-compiled Versions
----------------------
+
 Download executable... Double click and run!
 
 - Torque3D v2.0
