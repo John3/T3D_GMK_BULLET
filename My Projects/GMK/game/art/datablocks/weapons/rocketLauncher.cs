@@ -943,7 +943,8 @@ datablock DebrisData(RocketlauncherShellCasing)
 datablock ParticleData(RocketLauncherfiring1Particle)
 {
    textureName = "art/shapes/particles/Fireball";
-   dragCoefficient = 100.0;
+   //dragCoefficient = 100.0;
+   dragCoefficient = 5;
    gravityCoefficient = -0.25;//-0.5;//0.0;
    inheritedVelFactor = 0.25;//1.0;
    constantAcceleration = 0.1;
@@ -980,7 +981,8 @@ datablock ParticleEmitterData(RocketLauncherfiring1Emitter)
 datablock ParticleData(RocketLauncherfiring2Particle)
 {
    textureName = "art/shapes/particles/impact";
-   dragCoefficient = 100.0;
+   //dragCoefficient = 100.0;
+   dragCoefficient = 5;
    gravityCoefficient = -0.5;//0.0;
    inheritedVelFactor = 0.25;//1.0;
    constantAcceleration = 0.1;
