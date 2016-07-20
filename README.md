@@ -32,4 +32,4 @@ As you can see from the release note, this are the versions used:
 
 # License
 
-The MIT License (MIT)
+The MIT License [MIT] (https://tldrlegal.com/license/mit-license)
