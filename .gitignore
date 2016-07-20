@@ -24,6 +24,7 @@
 *.lib
 
 # Executables
-*.exe
+#*.exe
 *.out
 *.app
+My Projects/GMK/buildFiles/Link/
