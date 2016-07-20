@@ -1,10 +1,5 @@
-Torque3D v2 + Game Mechanics Kit (GMK) + Bullet Physics
+#Torque3D v2 + Game Mechanics Kit (GMK) + Bullet Physics
 =====================================================
-
-MIT Licensed Open Source version of [Torque 3D]
-
-More Information
-----------------
 
 I merge the code and fix minor bugs. If someone want to play and test this product
 
@@ -28,7 +23,7 @@ As you can see from the release note, this are the versions used:
 
 As a note aside I manage to merge and compile GMK and GuideBot but have some important bugs from the TorqueScript side that I need to manage. (I think GuideBot is unfinished)
 
-Pre-compiled Versions
+#Pre-compiled Versions
 ---------------------
 Download executable... Double click and run!
 
@@ -38,3 +33,8 @@ Download executable... Double click and run!
 
 You can download the executable from here:
 * [ Torque3D + GMK + Bullet package](https://github.com/John3/T3D_GMK_BULLET/releases) 
+*
+
+# License
+
+The MIT License (MIT)
