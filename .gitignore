@@ -26,5 +26,6 @@
 # Executables
 *.out
 *.app
+*.dts
 My Projects/GMK/buildFiles/Link/
 My Projects/GMK/buildFiles/VisualStudio 2010/GMK.sdf
