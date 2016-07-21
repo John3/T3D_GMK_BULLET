@@ -59,12 +59,12 @@ new SimGroup(MissionGroup) {
 
       new SpawnSphere() {
          autoSpawn = "0";
-         radius = "10";
+         radius = "3";
          sphereWeight = "1";
          indoorWeight = "1";
          outdoorWeight = "1";
          dataBlock = "SpawnSphereMarker";
-         position = "559.378 660.837 256.461";
+         position = "559.378 660.837 258.879";
          rotation = "-0.0266887 -0.000888356 -0.999643 90.0042";
          scale = "0.940827 1.97505 1";
          canSaveDynamicFields = "1";
