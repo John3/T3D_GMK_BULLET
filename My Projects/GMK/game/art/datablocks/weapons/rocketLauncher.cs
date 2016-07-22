@@ -1038,6 +1038,7 @@ datablock ItemData(RocketLauncherAmmo)
    // Dynamic properties defined by the scripts
    pickUpName = "Rockets";
    maxInventory = 20;
+   clip = LurkerClip;
 };
 
 // ----------------------------------------------------------------------------
