@@ -118,7 +118,7 @@ new SimGroup(MissionGroup) {
          category = "Triggers";
          editorIcon = "tools/LogickingEditor/images/Trigger";
          ignoreAI = "1";
-         onEnter = "ElfBot01.setGuard(%arg0);";
+         onEnter = "ElfBot01.setGuard(%arg0); BoomBot01.setGuard(%arg0);";
          templateName = "EventTrigger";
    };
    new ConvexShape() {
@@ -132,7 +132,7 @@ new SimGroup(MissionGroup) {
 
       surface = "0 0 0 1 0 -2.96059e-014 0.5";
       surface = "0 1 0 0 0 -2.9606e-014 -0.5";
-      surface = "0.707107 0 0 0.707106 0 0.5 0";
+      surface = "0.707107 0 0 0.707107 0 0.5 0";
       surface = "0 0.707107 -0.707107 0 2.36848e-013 -0.5 2.51059e-013";
       surface = "0.5 0.5 -0.5 0.5 -0.5 0 -9.93411e-008";
       surface = "0.5 -0.5 0.5 0.5 0.5 0 -9.93411e-008";
@@ -148,7 +148,7 @@ new SimGroup(MissionGroup) {
 
       surface = "0 0 0 1 0 -2.96059e-014 0.5";
       surface = "0 1 0 0 0 -2.9606e-014 -0.5";
-      surface = "0.707107 0 0 0.707107 0 0.5 0";
+      surface = "0.707107 0 0 0.707106 0 0.5 0";
       surface = "0 0.707107 -0.707107 0 2.36848e-013 -0.5 2.51059e-013";
       surface = "0.5 0.5 -0.5 0.5 -0.5 0 -9.93411e-008";
       surface = "0.5 -0.5 0.5 0.5 0.5 0 -9.93411e-008";
@@ -164,7 +164,7 @@ new SimGroup(MissionGroup) {
 
       surface = "0 0 0 1 0 -2.96059e-014 0.5";
       surface = "0 1 0 0 0 -2.9606e-014 -0.5";
-      surface = "0.707107 0 0 0.707107 0 0.5 0";
+      surface = "0.707107 0 0 0.707106 0 0.5 0";
       surface = "0 0.707107 -0.707107 0 2.36848e-013 -0.5 2.51059e-013";
       surface = "0.5 0.5 -0.5 0.5 -0.5 0 -9.93411e-008";
       surface = "0.5 -0.5 0.5 0.5 0.5 0 -9.93411e-008";
@@ -180,7 +180,7 @@ new SimGroup(MissionGroup) {
 
       surface = "0 0 0 1 0 -2.96059e-014 0.5";
       surface = "0 1 0 0 0 -2.9606e-014 -0.5";
-      surface = "0.707107 0 0 0.707106 0 0.5 0";
+      surface = "0.707107 0 0 0.707107 0 0.5 0";
       surface = "0 0.707107 -0.707107 0 2.36848e-013 -0.5 2.51059e-013";
       surface = "0.5 0.5 -0.5 0.5 -0.5 0 -9.93411e-008";
       surface = "0.5 -0.5 0.5 0.5 0.5 0 -9.93411e-008";
@@ -232,6 +232,7 @@ new SimGroup(MissionGroup) {
          guardCloseDist = "3";
          guardFarDist = "5";
          Health = "150";
+         invRocketLauncherAmmo = "20";
          Item = "HealthPatch";
          oppositeTeam = "players";
          ourTeam = "bots";
@@ -263,7 +264,7 @@ new SimGroup(MissionGroup) {
 
       surface = "0 0 0 1 0 -2.96059e-014 0.5";
       surface = "0 1 0 0 0 -2.9606e-014 -0.5";
-      surface = "0.707107 0 0 0.707107 0 0.5 0";
+      surface = "0.707107 0 0 0.707106 0 0.5 0";
       surface = "0 0.707107 -0.707107 0 2.36848e-013 -0.5 2.51059e-013";
       surface = "0.5 0.5 -0.5 0.5 -0.5 0 -9.93411e-008";
       surface = "0.5 -0.5 0.5 0.5 0.5 0 -9.93411e-008";
@@ -302,11 +303,38 @@ new SimGroup(MissionGroup) {
          guardCloseDist = "3";
          guardFarDist = "5";
          Health = "150";
+         invRocketLauncherAmmo = "20";
          Item = "HealthPatch";
          oppositeTeam = "bots";
          ourTeam = "players";
          perceptionEnabled = "1";
          templateName = "ElfBot";
+         viewDist = "40";
+   };
+   new AIBot(BoomBot01) {
+      mMoveTolerance = "0.25";
+      moveStuckTolerance = "0.01";
+      moveStuckTestDelay = "30";
+      isAIControlled = "1";
+      dataBlock = "AiBoomBotData";
+      position = "20 50 245.259";
+      rotation = "0 0 -1 69.5147";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      Enabled = "0";
+         blockMovement = "false";
+         category = "AI";
+         editorIcon = "tools/LogickingEditor/images/AI";
+         guardCloseDist = "3";
+         guardFarDist = "5";
+         Health = "100";
+         invRocketLauncherAmmo = "20";
+         Item = "HealthPatch";
+         oppositeTeam = "bots";
+         ourTeam = "players";
+         perceptionEnabled = "1";
+         templateName = "BoomBot";
          viewDist = "40";
    };
 };
