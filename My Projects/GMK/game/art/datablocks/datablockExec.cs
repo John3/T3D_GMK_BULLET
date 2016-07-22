@@ -53,6 +53,7 @@ exec("./teleporter.cs");
 
 // Load the default player datablocks
 exec("./player.cs");
+exec("./BoomBot.cs");
 
 // Load our other player datablocks
 exec("./aiPlayer.cs");

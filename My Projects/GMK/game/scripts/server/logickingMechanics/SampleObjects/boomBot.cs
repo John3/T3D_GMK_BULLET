@@ -52,7 +52,7 @@ datablock PlayerData(AiBoomBotData : BoomBotData)
    maxSideSpeed = 5;
    jumpForce = 30.0 * 90;
 
-   shapeFile = "art/shapes/players/BoomBot/BoomBot.dts";
+   shapeFile = "art/shapes/actors/BoomBot/BoomBot.dts";
    
    category = "AI";
    className = "AiBotData";
