@@ -32,3 +32,4 @@ My Projects/GMK/buildFiles/VisualStudio 2010/GMK.sdf
 My Projects/GMK/game/shaders/procedural/
 My Projects/GMK/game/GMK_DEBUG.*
 My Projects/GMK/game/GMK.torsion.*
+*.cached.dts
