@@ -35,3 +35,7 @@ My Projects/GMK/game/GMK.torsion.*
 *.cached.dts
 My Projects/GMK/buildFiles/VisualStudio 2010/GMK.opensdf
 My Projects/GMK/game/GMK.exp
+My Projects/GMK/game/core/prefs.cs
+My Projects/GMK/game/scripts/client/prefs.cs
+My Projects/GMK/game/scripts/server/banlist.cs
+My Projects/GMK/game/scripts/server/prefs.cs
